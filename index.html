@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div id="box-id">
+        <h1>Enter your OTP:</h1>
+        <div id="box-list">
+            <input type="text" class="box" maxlength="1">
+            <input type="text" class="box" maxlength="1">
+            <input type="text" class="box" maxlength="1">
+            <input type="text" class="box" maxlength="1">
+        </div>
+        <p id="generated-otp">...</p>
+        <button class="new-otp" onclick="newOTP()">Send new OTP</button>
+        <p id="validation-message" class="validation-message"></p>
+        <p id="otp-expire"></p>
+    </div>
+</body>
+</html>

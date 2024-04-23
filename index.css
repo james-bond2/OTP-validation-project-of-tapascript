@@ -1,0 +1,45 @@
+body{
+    background-color: #000;
+    color: white;
+}
+
+#box-id{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-list{
+    display: flex;
+}
+
+#box-list .box{
+    width: 20px;
+    margin-right: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px teal;
+    border: none;
+    border-radius: 5px;
+}
+
+.validation-message{
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.validation-message.success{
+    border: 1px solid greenyellow;
+    color: green;
+}
+
+.validation-message.fail{
+    border: 1px solid red;
+    color: red;
+}
+
+.new-otp{
+    border: 1px solid gray;
+    background-color: palegreen;
+    border-radius: 5px;
+}
